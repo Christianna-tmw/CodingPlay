@@ -18,7 +18,7 @@ Method:
 2�� ȫ�ǿո�----����0
 3�� û��һ���ո� ---- ���ش���
 4�� �пո�������--- �������һ���ֳ�
-
+OK 这是一个测试
 
 Author:tmw
 date:2017-9-22
@@ -37,7 +37,6 @@ int lengthOfLastWord(char* s)
     if( len == 0 )
         return 0;
 
-    //ȫ�ǿո�---����0
     int i = 0;
     int ok = 1;
     while(i<len)
@@ -97,8 +96,4 @@ int main()
 
     return res;
 }
-//add new this is new
-
-//test here add new2
-//修改通过vscode
 
