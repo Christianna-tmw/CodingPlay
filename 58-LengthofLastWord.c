@@ -34,7 +34,6 @@ int lengthOfLastWord(char* s)
 
     int count = 0;
 
-    //Ϊ�մ�---����0
     if( len == 0 )
         return 0;
 
@@ -52,8 +51,6 @@ int lengthOfLastWord(char* s)
     }
     if( ok == 1 )
         return 0;
-
-    //û��һ���ո� ---���ش���
     i = 0;
     int mark = 0;
     while(i<len)
@@ -65,7 +62,6 @@ int lengthOfLastWord(char* s)
     if( mark == 0 )
         return i;
 
-//�пո�������--- �������һ���ֳ�
     i = len-1;
     while( i >= 0 )
     {
@@ -101,4 +97,8 @@ int main()
 
     return res;
 }
-//add new
+//add new this is new
+
+//test here add new2
+//修改通过vscode
+
